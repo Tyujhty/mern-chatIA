@@ -3,6 +3,7 @@ import { connectToDatabase } from "./db/connections.js";
 
 // Server and listeners
 const PORT = process.env.PORT || 5000;
+
 connectToDatabase()
   .then(() => {
     app.listen(PORT, () => 
