@@ -16,7 +16,7 @@ export const getAllUsers = async (
         
         } catch (error) {
             console.log(error);
-            return res.status(200).json({
+            return res.status(500).json({
                 message: "ERROR", 
                 cause: error.message
             })
@@ -42,7 +42,7 @@ export const userSignup = async (
     
     } catch (error) {
         console.log(error);
-        return res.status(200).json({
+        return res.status(500).json({
             message: "ERROR", 
             cause: error.message
         })
