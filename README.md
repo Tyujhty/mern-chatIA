@@ -1,11 +1,54 @@
+[![version](https://img.shields.io/badge/version-1.1.1-blue.svg)](https://semver.org)
 
-# MERN Stack AI Chatbot
+# Projet d'un chatbot intégrant une IA, inspiré de ChatGPT, utilisant une structure MERN, TypeScript et OpenAI
 
-This is an AI Chatbot application, inspired by ChatGPT, by using MERN Stack and OpenAI
+Ce projet de chatbot intègre une IAe, s'inspirant de ChatGPT, et est développé en utilisant une structure MERN (MongoDB, Express.js, React, Node.js) avec TypeScript. Il offre un système où les messages de chaque utilisateur sont stockés dans une base de données, permettant ainsi leur consultation et suppression.
 
-It's a customized chatbot where each message of the user is stored in DB and can be retrieved and deleted.
+*This chatbot project integrates AI, inspired by ChatGPT, and is developed using a MERN (MongoDB, Express.js, React, Node.js) stack with TypeScript. It provides a system where user messages are stored in a database, allowing for their retrieval and deletion.*
 
-It's a completely secure application using JWT Tokens, HTTP-Only Cookies, Signed Cookies, Password Encryption, and Middleware Chains.
 
-Contributions are welcome
+## Stack technologique / Tech Stack
 
+**Client** : React, TypeScript
+
+**Serveur** : Node.js, Express.js, MongoDB
+
+**Stylisation** : Tailwind CSS
+
+Dans le cadre de ce projet MERN, la partie cliente est développée en utilisant React avec TypeScript. Du côté serveur, nous utilisons Node.js en conjonction avec Express.js, et MongoDB est utilisé comme base de données. La stylisation est réalisée avec Tailwind CSS.
+
+*For this MERN project, the client-side is developed using React with TypeScript. On the server-side, we utilize Node.js in conjunction with Express.js, and MongoDB is used as the database. Styling is achieved with Tailwind CSS.*
+
+
+## Fonctionnalités
+
+- [x]  Création d'un système d'authentification et d'autorisation d'utilisateurs
+- [x]  Implémentation d'un middleware express-validator pour valider les données
+- [ ]  Stockage des discussions des utilisateurs dans MongoDB
+- [ ]  Génération d'un système d'authentification personnalisé
+- [ ]  Utilisation de jetons d'autorisation JWT, de cookies HTTP seulement
+- [ ]  Protection des itinéraires d'utilisateur avec des vérifications de sécurité
+- [ ]  Création d'une interface de discussion avec la bibliothèque Material UI
+- [ ]  Conception responsive
+- [ ]  Intégration d'OpenAI
+
+## *Features*
+
+- [x]  *Create user authentication and authorization system*
+- [x]  *Implementing express-validators middleware to validate data*
+- [ ]  *Storing user's chats in MongoDB*
+- [ ]  *Generating custom and our own authentication system*
+- [ ]  *Using JWT authorization tokens, HTTP-only cookies*
+- [ ]  *Protecting user routes with verification checks*
+- [ ]  *Creating a chat UI with Material UI library*
+- [ ]  *Complete responsive design*
+- [ ]  *Integrating OpenAI*
+
+## 🚀 A propos
+Ce projet d'entraînement est basé sur le tutoriel de IndianCoders. 
+
+*This training project is based on the tutorial by IndianCoders.*
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fannybaquey.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fanny-baquey/)
