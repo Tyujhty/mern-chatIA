@@ -9,15 +9,15 @@ Ce projet de chatbot intègre une IAe, s'inspirant de ChatGPT, et est développ�
 
 ## Stack technologique / Tech Stack 
 
-**Client** : React, TypeScript
+**Client** : React, TypeScript, Vite
 
 **Serveur** : Node.js, Express.js, MongoDB
 
 **Stylisation** : Tailwind CSS
 
-Dans le cadre de ce projet MERN, la partie cliente est développée en utilisant React avec TypeScript. Du côté serveur,j'utilise Node.js en conjonction avec Express.js, et MongoDB est utilisé comme base de données. La stylisation est réalisée avec Tailwind CSS.
+Dans le cadre de ce projet MERN, la partie cliente est développée en utilisant React, TypeScript ans Vite. Du côté serveur,j'utilise Node.js en conjonction avec Express.js, et MongoDB est utilisé comme base de données. La stylisation est réalisée avec Tailwind CSS.
 
-*For this MERN project, the client-side is developed using React with TypeScript. On the server-side, I utilize Node.js in conjunction with Express.js, and MongoDB is used as the database. Styling is achieved with Tailwind CSS.*
+*For this MERN project, the client-side is developed using React, TypeScript and Vite. On the server-side, I utilize Node.js in conjunction with Express.js, and MongoDB is used as the database. Styling is achieved with Tailwind CSS.*
 
 
 ## Fonctionnalités
