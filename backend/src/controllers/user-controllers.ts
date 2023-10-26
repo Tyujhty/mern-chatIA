@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import User from "../models/User.js";
 import { hash, compare } from "bcrypt";
+import { createToken } from "../utils/token-manager.js";
 
 export const getAllUsers = async (
         req:Request, 
@@ -22,7 +23,6 @@ export const getAllUsers = async (
             })
         }
 }
-
 export const userSignup = async (
     req:Request, 
     res:Response, 
@@ -69,7 +69,21 @@ export const userLogin = async (
         if(!isPasswordValid) {
             return res.status(403).send("Invalid password");
         }
+        
+        const token = createToken(currentUser._id.toString(), currentUser.email, "7d");
+        
+        const expires = new Date();
+        expires.setDate(expires.getDate() + 7);
 
+        res.cookie("auth_toker", token, {
+            path: "/",
+            domain: "localhost",
+            expires,
+            httpOnly: true,
+            signed: true, 
+        })
+        
+        
         return res.status(201).json({
             message: "OK", 
             id: currentUser._id.toString()

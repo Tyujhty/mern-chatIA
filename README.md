@@ -7,7 +7,7 @@ Ce projet de chatbot intègre une IAe, s'inspirant de ChatGPT, et est développ�
 *This chatbot project integrates AI, inspired by ChatGPT, and is developed using a MERN (MongoDB, Express.js, React, Node.js) stack with TypeScript. It provides a system where user messages are stored in a database, allowing for their retrieval and deletion.*
 
 
-## Stack technologique / Tech Stack
+## Stack technologique / Tech Stack 
 
 **Client** : React, TypeScript
 
@@ -15,9 +15,9 @@ Ce projet de chatbot intègre une IAe, s'inspirant de ChatGPT, et est développ�
 
 **Stylisation** : Tailwind CSS
 
-Dans le cadre de ce projet MERN, la partie cliente est développée en utilisant React avec TypeScript. Du côté serveur, nous utilisons Node.js en conjonction avec Express.js, et MongoDB est utilisé comme base de données. La stylisation est réalisée avec Tailwind CSS.
+Dans le cadre de ce projet MERN, la partie cliente est développée en utilisant React avec TypeScript. Du côté serveur,j'utilise Node.js en conjonction avec Express.js, et MongoDB est utilisé comme base de données. La stylisation est réalisée avec Tailwind CSS.
 
-*For this MERN project, the client-side is developed using React with TypeScript. On the server-side, we utilize Node.js in conjunction with Express.js, and MongoDB is used as the database. Styling is achieved with Tailwind CSS.*
+*For this MERN project, the client-side is developed using React with TypeScript. On the server-side, I utilize Node.js in conjunction with Express.js, and MongoDB is used as the database. Styling is achieved with Tailwind CSS.*
 
 
 ## Fonctionnalités
@@ -26,7 +26,7 @@ Dans le cadre de ce projet MERN, la partie cliente est développée en utilisant
 - [x]  Implémentation d'un middleware express-validator pour valider les données
 - [ ]  Stockage des discussions des utilisateurs dans MongoDB
 - [ ]  Génération d'un système d'authentification personnalisé
-- [ ]  Utilisation de jetons d'autorisation JWT, de cookies HTTP seulement
+- [ ]  Utilisation de jetons d'autorisation JWT, cookies HTTP-only (prévenir XSS attaques)
 - [ ]  Protection des itinéraires d'utilisateur avec des vérifications de sécurité
 - [ ]  Création d'une interface de discussion avec la bibliothèque Material UI
 - [ ]  Conception responsive
@@ -38,7 +38,7 @@ Dans le cadre de ce projet MERN, la partie cliente est développée en utilisant
 - [x]  *Implementing express-validators middleware to validate data*
 - [ ]  *Storing user's chats in MongoDB*
 - [ ]  *Generating custom and our own authentication system*
-- [ ]  *Using JWT authorization tokens, HTTP-only cookies*
+- [ ]  *Using JWT authorization tokens, HTTP-only cookies (prevent XSS attacks)*
 - [ ]  *Protecting user routes with verification checks*
 - [ ]  *Creating a chat UI with Material UI library*
 - [ ]  *Complete responsive design*
